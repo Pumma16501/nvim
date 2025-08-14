@@ -27,11 +27,14 @@
     "lazyvim.plugins.extras.ui.dashboard-nvim",
     "lazyvim.plugins.extras.util.gitui",
     "lazyvim.plugins.extras.vscode"
+    "lazyvim.plugins.extras.lang.markdown",
+    "lazyvim.plugins.extras.lang.toml"
   ],
   "install_version": 8,
   "news": {
     "NEWS.md": "10960",
     "doc/news.txt": "25639"
+    "doc/news.txt": "13027"
   },
   "version": 8
 }
