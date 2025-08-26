@@ -1,12 +1,6 @@
-return {
-  {
-    "sainnhe/sonokai",
-    priority = 1000,
-    config = function()
-      vim.g.sonokai_transparent_background = "1"
-      vim.g.sonokai_enable_italic = "1"
-      vim.g.sonokai_style = "andromeda"
-      vim.cmd.colorscheme("sonokai")
-    end,
-  },
-}
+-- Removed plugin management for "tokyonight.nvim" since it's already installed.
+-- Just set the colorscheme options and apply it.
+
+vim.g.tokyonight_transparent = true
+vim.g.tokyonight_style = "night"
+vim.cmd.colorscheme("tokyonight")
