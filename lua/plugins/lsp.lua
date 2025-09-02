@@ -24,6 +24,7 @@ return {
         "delve", -- Debugger
         "staticcheck", -- Linter
         "golangci-lint", -- Linter
+        "codelldb",
       })
     end,
   },
